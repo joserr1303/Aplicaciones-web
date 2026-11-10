@@ -1,0 +1,141 @@
+/* Aquí vamos a realizar el color de mi página*/
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    background-color: coral;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+}
+
+section {
+    width: 90%;
+    margin: auto;
+}
+
+.listades {
+    background-color: rgb(255, 157, 79);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.cpu {
+    list-style: none;
+    background-image: url(cpu.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-position-x: -5px;
+    padding: 0px 0px 0px 25px;
+}
+
+.placa {
+    list-style: none;
+    background-image: url(placa.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-position-x: -5px;
+    padding: 0px 0px 0px 25px;
+}
+
+.ram {
+    list-style: none;
+    background-image: url(ram.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-position-x: -5px;
+    padding: 0px 0px 0px 25px;
+}
+
+.torre {
+    list-style: none;
+    background-image: url(caja.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-position-x: -5px;
+    padding: 0px 0px 0px 25px;
+}
+
+.refri {
+    list-style: none;
+    background-image: url(refri.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-position-x: -5px;
+    padding: 0px 0px 0px 25px;
+}
+
+.fa {
+    list-style: none;
+    background-image: url(fa.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-position-x: -5px;
+    padding: 0px 0px 0px 25px;
+}
+
+.grafica {
+    list-style: none;
+    background-image: url(grafica.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-position-x: -5px;
+    padding: 0px 0px 0px 25px;
+}
+
+.disco {
+    list-style: none;
+    background-image: url(disco.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-position-x: -5px;
+    padding: 0px 0px 0px 25px;
+}
+
+.tv {
+    list-style: none;
+    background-image: url(tv.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-position-x: -5px;
+    padding: 0px 0px 0px 25px;
+}
+
+.altavoz {
+    list-style: none;
+    background-image: url(altavoces.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-position-x: -5px;
+    padding: 0px 0px 0px 25px;
+}
+
+.numerada {
+    background-color: rgb(255, 186, 79);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+ol ol {
+    list-style-type: disc;
+}
+
+.definicion {
+    background-color: rgb(255, 79, 129);
+    border-radius: 15px;
+    padding: 20px;
+}
+dt{
+    font-weight: 800;
+}

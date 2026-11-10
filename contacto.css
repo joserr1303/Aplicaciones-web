@@ -1,0 +1,11 @@
+/*Contactos*/
+body{
+    background-color: rgb(156, 202, 204);
+}
+a{
+    color: black;
+    background-color: rgb(187, 159, 201);
+    border-radius: 11px;
+    border: rgb(42, 31, 53), 2px, solid;
+
+}

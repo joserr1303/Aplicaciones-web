@@ -1,0 +1,21 @@
+/* Mis proyectos*/
+body{
+    background-color: cornflowerblue;
+}
+a{
+    color: coral;
+}
+#contacto{
+    border-radius: 10px;
+    border: black, 1px, solid;
+    background-color: aliceblue;
+    padding: 0.5rem;
+    color: black;
+}
+#principal{
+    border-radius: 10px;
+    border: black, 1px, solid;
+    background-color: aliceblue;
+    padding: 0.5rem;
+    color: black;
+}

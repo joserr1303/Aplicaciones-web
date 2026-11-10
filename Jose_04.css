@@ -1,0 +1,75 @@
+/*
+    Imagenes e hipervínculos
+    28/09/2026
+    */
+
+p {
+    color: black;
+}
+
+i {
+    background-color: blanchedalmond;
+}
+
+em {
+    background-color: blanchedalmond;
+}
+body {
+    background-color: bisque;
+}
+
+h1 {
+    background-color: rgb(200, 200, 180);
+    border: solid 2px;
+    border-radius: 5px;
+    padding: 4px;
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-top: 9px;
+    padding-bottom: 1px;
+}
+
+footer {
+    text-align: center;
+}
+
+#llamarayuntamiento {
+    color: brown;
+}
+
+#emailayuntamiento {
+    color: brown;
+}
+#arquitectura{
+    color: darkgreen;
+}
+#origen{
+    color: darkgreen;
+}
+#origeniglesia{
+    width: 30%;
+}
+#fotoarquitectura{
+    width: 25%;
+}
+#sobremi{
+    border-radius: 10px;
+    border: black, 1px, solid;
+    background-color: aliceblue;
+    padding: 0.5rem;
+    color: black;
+}
+#proyectos{
+    border-radius: 10px;
+    border: black, 1px, solid;
+    background-color: aliceblue;
+    padding: 0.5rem;
+    color: black;
+}
+#contacto{
+     border-radius: 10px;
+    border: black, 1px, solid;
+    background-color: aliceblue;
+    padding: 0.5rem;
+    color: black;
+}

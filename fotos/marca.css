@@ -1,0 +1,136 @@
+/* CSS de imitación para el Marca
+    José Reche Rodríguez
+    22/10/2026*/
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+header {
+    h1 {
+        font-size: xx-large;
+        padding: 20px;
+        background-color: #008272;
+        text-align: center;
+    }
+
+    .cabeza {
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+        width: 100%;
+        background-color: #006882;
+
+        a {
+            font-size: x-large;
+            text-decoration: none;
+            color: black;
+            border: 0.15rem solid black;
+            padding: 5px 20px;
+        }    
+        a:hover{
+            background-color: aliceblue;
+        }
+    }
+}
+
+.jugadores{
+    margin-left: 24px;
+    line-height: 80px;
+}
+
+/*Imagenes*/
+
+.cr7,.fede,.jude,.iker,.kroos,.marcelo,.modric,.pitbull,.ramos,.roberto{
+    list-style-type: none;
+    background-size: 80px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-position-x: -10px;
+    padding: 0px 0px 0px 80px;
+}
+
+.cr7{
+    background-image:url(cr7sin.jpg);
+}
+
+.fede{
+    background-image:url(fede.jpg);
+}
+
+.jude{
+    background-image:url(jude.jpg);
+}
+
+.iker{
+    background-image:url(iker.jpg);
+}
+
+.kroos{
+    background-image:url(kroos.jpg);
+}
+
+.modric{
+    background-image:url(modric.jpg);
+}
+
+.roberto{
+    background-image:url(roberto.jpg);
+}
+
+.ramos{
+    background-image:url(ramos.jpg);
+}
+
+.marcelo{
+    background-image:url(Marcelo1.jpg);
+}
+
+.pitbull{
+    background-image:url(carvajal.jpg);
+}
+
+.lista{
+    display: flex;
+    gap: 50px;
+    h4{
+        margin-left: 290px;
+        margin-top: 20px;
+    }
+}
+
+.fotos {
+    display: grid;
+    grid-template-columns: 90px 90px 90px;
+    gap: 140px;
+    justify-content: start;
+    align-content: start;
+}
+
+.fotos img {
+    width: 250%;
+    height: auto;
+    transform: scale(1);
+}
+.fotos img:hover{
+    transform: scale(2);
+}
+
+footer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    a{
+    text-decoration: none;
+    color: black;
+    border: solid 3px; width: 20%;
+    
+    }
+    background-color:#008246 ;
+    a:hover{
+        background-color: aliceblue;
+    }
+}

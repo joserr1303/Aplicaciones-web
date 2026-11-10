@@ -1,0 +1,86 @@
+/* Muebles
+José Reche
+09/11/26*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    padding: 2rem;
+    background: linear-gradient(to right, black -10%, grey 50%, white 100%);
+    cursor: url("./fotos/cursor.cur"), auto;
+}
+
+.puff{
+    background-image: linear-gradient(to right,
+    transparent 50%,#7b601f 50%, #77580e 100%),
+    url(./fotos/puff.jpg);
+    background-size: 100%, 100rem;
+    padding: 8rem 0;
+    background-repeat: no-repeat;
+    background-position: left center;
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.puff h2{
+    grid-column: 2/3;
+    text-align: center;
+    color: white;
+    font-family: Moon Dance;
+}
+
+body h1{
+    margin-top: 50px;
+    text-align: center;
+}
+
+section{
+    display: flex;
+    height: 300px;
+}
+
+section img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 0.8;
+    transition: 1s ease;
+}
+
+section img:hover{
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+.carrusel p, h1{
+    text-align: center;
+    font-family: Moon Dance;
+    font-size: xx-large;
+}
+
+.moon-dance-regular {
+  font-family: "Moon Dance", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+section img:first-child{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+section img:last-child{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
