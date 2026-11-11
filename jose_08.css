@@ -1,0 +1,42 @@
+/* Galería, efectos y favicón
+    José Reche
+    11/11/26
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    margin: 0 auto;
+    background-color: azure;
+}
+
+header h1{
+    text-align: center;
+    background-color: aqua;
+    padding: 15px;
+    width: 70%;
+    margin: 1rem auto;
+}
+
+section{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    img{
+        margin: 1rem auto;
+        width: 90%;
+        transition: 2s ease;
+    }
+}
+section img:hover{
+    transition: 2s ease;
+    width: 80%;
+    filter: sepia(120%)
+}
