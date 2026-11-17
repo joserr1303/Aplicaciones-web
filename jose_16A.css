@@ -1,0 +1,39 @@
+/*Práctica de imagen de fondo
+    José Reche
+    17-11-26
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body {
+    max-width: 90%;
+    margin: 0 auto;
+    background-image: url(./fotos/futbol.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    background-color: rgba(219, 200, 176, 0.488);
+    text-align: center;
+    padding: 10px;
+}
+
+
+footer{
+    
+    background-color: rgba(219, 200, 176, 0.488);
+    text-align: center;
+    padding: 10px;
+    margin-top: 100%;
+}
