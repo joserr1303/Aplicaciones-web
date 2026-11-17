@@ -1,0 +1,58 @@
+/* Formularios ejercicio 15
+    José Reche Rodríguez
+    17-11-26
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    background-color: beige;
+}
+
+
+/*El margin 0 auto funciona si le ponemos un tamaño a la página con el el max-width o directamente con width*/
+
+body{
+    margin: 0 auto;
+    max-width: 40%;
+}
+
+header{
+    margin: 2rem;
+    background-color: rgb(14, 63, 161);
+    border-radius: 20px;
+    text-align: center;
+    h1{
+        padding: 2rem;
+    }
+}
+
+legend{
+    border-radius: 7px;
+    background-color: rgb(25, 186, 235);
+    padding: 10px;
+}
+
+fieldset{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 1.5rem;
+    gap: 2rem;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin: 2rem;
+    p{
+        display: flex;
+        flex-direction: column;
+    }
+
+    button{
+        padding: 5px;
+        border-radius: 5px;
+    }
+}
