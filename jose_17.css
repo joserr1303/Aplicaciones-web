@@ -1,0 +1,53 @@
+/*Ejercicio 17
+    José Reche Rodríguez
+    23-11-2026
+*/
+
+*{
+    margin: 1rem;
+    box-sizing: border-box;
+    border-radius: 2rem;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#t2::before, #t2::after{
+    content: "''";
+    margin: 5px;
+    border: 1px solid black;
+    border-radius:14px ;
+}
+
+#t2{
+    color: aliceblue;
+    text-transform: lowercase;
+}
+
+article{
+    font-size: 1.5rem;
+    text-align: justify;
+    column-count: 3;
+    column-gap: 2rem;
+    column-rule: 3px solid violet;
+}
+
+p::first-letter{
+    font-size: 2rem;
+    color: blueviolet;
+}
+
+p::first-line{
+    color:aqua;
+}
+
+*::selection{
+    background: greenyellow
+}
+
+main{
+    background-image: linear-gradient(to bottom,
+    green, yellow);
+}
