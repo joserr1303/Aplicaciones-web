@@ -1,0 +1,28 @@
+/* Este es el css donde modificaremos nuestros textos de la actividad Jose_03.html*/
+
+ p{
+    color: black;
+}
+i{
+    background-color: blanchedalmond;
+}
+em{
+    background-color: blanchedalmond;
+}
+h2{
+    background-color: rgb(211, 211, 180);
+    text-align: center;
+}
+body{
+    background-color: bisque;
+}
+h1{
+    background-color: rgb(200, 200, 180);
+    border: solid 2px;
+    border-radius: 5px;
+    padding: 4px;
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-top: 9px;
+    padding-bottom: 1px;
+}

@@ -1,0 +1,52 @@
+/* En la práctica 5 vamos a darle
+ vida a las cajas flotantes*/
+
+ body{
+    background-color: darkgrey;
+    color: white;
+ }
+ h1{
+    text-align: center;   
+ }
+ div{
+   width: 100px;
+   height: 100px;
+   padding: 30px;
+   text-align: center;
+   border-radius: 190px;
+ }
+ #linearriba{
+    color: black;
+    background-color: blue;
+    width: 100%;
+    height: 20px;
+    border-radius: 15px;
+    padding-top: 20px;
+    font-size: x-large;
+ }
+ #cajamorada{
+    background-color: blueviolet;
+    float: left;
+ }
+ #cajaverde{
+    background-color: greenyellow;
+    float: left;
+}
+ #cajanaranja{
+    background-color: orange;
+    float: left;
+}
+ #cajarosa{
+    background-color:pink;
+    float: left;
+ }
+ #lineabajo{
+    color: aqua;
+    background-color: yellow;
+    width: 100%;
+    height: 20px;
+    border-radius: 15px;
+    padding-top: 20px;
+    font-size: x-large;
+    float:inline-end
+}
