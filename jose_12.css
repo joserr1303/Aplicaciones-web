@@ -1,0 +1,57 @@
+/*Ejercicio 12
+    José Reche Rodríguez
+    13-11-26
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    cursor: cell;
+}
+
+body{
+    background-image: linear-gradient(to left, white, blue, aqua);
+    cursor: url(./fotos/cursor.cur), auto;
+}
+
+header{
+    h1{
+        text-align: center;
+        padding: 2rem;
+    }
+    width: 60%;
+    margin-left: 35rem;
+    margin-top: 2rem;
+    border: solid 2px black;
+    background-image: linear-gradient(to bottom, white, aqua, black);
+    cursor: crosshair;
+}
+
+article{
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.ar1, .ar2, .ar3{
+    border: solid 2px black;
+    padding: 1rem;
+    margin-left: 14rem;
+    margin-right: 14rem;
+}
+
+.ar1{
+    background-image: radial-gradient(aqua 20%, white);
+}
+
+.ar2{
+    background-image: radial-gradient(white 50%, aqua);
+}
+
+.ar3{
+    background-image: linear-gradient(to right, grey, white, blue)
+}
