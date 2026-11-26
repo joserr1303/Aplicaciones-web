@@ -1,0 +1,78 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    background-color: lightblue;
+    background-image: url(./fotos/rm\ champ.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+header{
+    text-align: center;
+    color: black;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    border: solid 3px ;
+    border-radius: 15px;
+    width: 50%;
+    margin-left: 25%;
+    background-color: aquamarine;
+    h2{
+        font-size: larger;
+    }
+}
+
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 90%;
+    div{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+}
+
+.caja {
+    width: 200px;
+    padding: 20px;
+    border: 2px solid black;
+    text-align: center;
+    background-color: aqua;
+}
+
+.caja:hover{
+    cursor: crosshair;
+    background-color: aquamarine;
+}
+
+.caja h3 {
+    color: black;
+}
+
+a {
+    text-align: center;
+    color: black;
+    background-color: whitesmoke;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+a:hover{
+    background-color: cornflowerblue;
+    color: aliceblue;
+}
+
+header { animation: flotar 3s ease-in-out infinite;}
+@keyframes flotar {
+   0%, 100% { transform: translateY(0);}
+   50% {transform: translateY(-20px);}
+}
