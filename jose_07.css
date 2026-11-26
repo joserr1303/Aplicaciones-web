@@ -23,7 +23,7 @@ section {
 
 .cpu {
     list-style: none;
-    background-image: url(cpu.png);
+    background-image: url(./fotos/cpu.png);
     background-size: 25px;
     background-repeat: no-repeat;
     background-position: left center;
@@ -33,7 +33,7 @@ section {
 
 .placa {
     list-style: none;
-    background-image: url(placa.png);
+    background-image: url(./fotos/placa.png);
     background-size: 25px;
     background-repeat: no-repeat;
     background-position: left center;
@@ -43,7 +43,7 @@ section {
 
 .ram {
     list-style: none;
-    background-image: url(ram.png);
+    background-image: url(./fotos/ram.png);
     background-size: 25px;
     background-repeat: no-repeat;
     background-position: left center;
@@ -53,7 +53,7 @@ section {
 
 .torre {
     list-style: none;
-    background-image: url(caja.png);
+    background-image: url(./fotos/caja.png);
     background-size: 25px;
     background-repeat: no-repeat;
     background-position: left center;
@@ -63,7 +63,7 @@ section {
 
 .refri {
     list-style: none;
-    background-image: url(refri.png);
+    background-image: url(./fotos/refri.png);
     background-size: 25px;
     background-repeat: no-repeat;
     background-position: left center;
@@ -73,7 +73,7 @@ section {
 
 .fa {
     list-style: none;
-    background-image: url(fa.png);
+    background-image: url(./fotos/fa.png);
     background-size: 25px;
     background-repeat: no-repeat;
     background-position: left center;
@@ -83,7 +83,7 @@ section {
 
 .grafica {
     list-style: none;
-    background-image: url(grafica.png);
+    background-image: url(./fotos/grafica.png);
     background-size: 25px;
     background-repeat: no-repeat;
     background-position: left center;
@@ -93,7 +93,7 @@ section {
 
 .disco {
     list-style: none;
-    background-image: url(disco.png);
+    background-image: url(./fotos/disco.png);
     background-size: 25px;
     background-repeat: no-repeat;
     background-position: left center;
@@ -103,7 +103,7 @@ section {
 
 .tv {
     list-style: none;
-    background-image: url(tv.png);
+    background-image: url(./fotos/tv.png);
     background-size: 25px;
     background-repeat: no-repeat;
     background-position: left center;
@@ -113,7 +113,7 @@ section {
 
 .altavoz {
     list-style: none;
-    background-image: url(altavoces.png);
+    background-image: url(./fotos/altavoces.png);
     background-size: 25px;
     background-repeat: no-repeat;
     background-position: left center;
