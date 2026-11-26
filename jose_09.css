@@ -1,0 +1,27 @@
+/* Ejercicio 9
+    José Reche
+    26-11-26
+*/
+
+header{
+    background-color: aquamarine;
+    text-align: center;
+    padding: 1rem;
+}
+
+h2{
+    text-align: center;
+}
+
+section{
+    margin-left: 1rem;
+    width: 30%;
+    float: left;
+}
+
+footer{
+    background-color: aquamarine;
+    text-align: center;
+    padding: 2rem;
+    clear: both;
+}
